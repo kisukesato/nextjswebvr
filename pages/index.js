@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Home() {
   return (
-<Html>
     <Head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,intial-scale=1">
@@ -22,6 +20,5 @@ export default function Home() {
             <a-entity camera></a-entity>
         </a-scene>
     </body>
-</Html>
   )
 }
