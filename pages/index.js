@@ -12,6 +12,5 @@ export default function Home() {
             id='iframe'
             src='./index.html'
         ></iframe>
-    );
   )
 }
