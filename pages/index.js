@@ -11,7 +11,7 @@ export default function Home() {
         <iframe
             width='100%'
             id='iframe'
-            src='./index.html'
+            src='index.html'
         ></iframe>
   )
 }
